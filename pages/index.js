@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -20,9 +20,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/path-lines" className={styles.card}>
+            <h3>SVG Drawings &rarr;</h3>
+            <p>Various svg drawings</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
@@ -61,5 +61,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
