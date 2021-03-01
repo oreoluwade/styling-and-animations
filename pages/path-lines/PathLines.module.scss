@@ -1,0 +1,14 @@
+
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 30px;
+}
+
+.box {
+  height: 30vh;
+  width: 100%;
+  border: 2px solid green;
+  padding: 12px;
+}
