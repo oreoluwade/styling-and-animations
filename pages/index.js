@@ -25,9 +25,9 @@ export default function Home() {
             <p>Various svg drawings</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/rolling-stone" className={styles.card}>
+            <h3>CSS Animations &rarr;</h3>
+            <p>Learning CSS Animations</p>
           </a>
 
           <a
