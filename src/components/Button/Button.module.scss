@@ -1,0 +1,45 @@
+.btn {
+  &__default {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    color: black;
+    border: none;
+  }
+
+  &__primary {
+    background-color: red;
+    color: white;
+  }
+
+  &__secondary {
+    background-color: blue;
+    color: white;
+  }
+
+  &__tertiary {
+    background-color: green;
+    color: white;
+  }
+
+  &__rounded {
+    border-radius: 40px;
+    color: black;
+  }
+
+  &__large {
+    width: 250px;
+    height: 80px;
+    background-color: salmon;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  &__small {
+    width: 80px;
+    height: 30px;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 10px;
+  }
+}
