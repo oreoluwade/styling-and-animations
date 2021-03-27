@@ -1,0 +1,49 @@
+.root {
+  margin: 50px auto;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid chocolate;
+  padding: 10px;
+
+  &__box {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid brown;
+    margin-bottom: 15px;
+  }
+}
+
+.category {
+  width: 100%;
+  padding: 10px;
+  font-weight: 600;
+  display: flex;
+}
+
+.product_row {
+  width: 100%;
+  padding: 2px 10px;
+  display: flex;
+
+  p {
+    width: 50%;
+  }
+}
+
+.table {
+  &__heading {
+    width: 100%;
+    display: flex;
+
+    p {
+      padding: 5px 10px;
+      width: 50%;
+    }
+  }
+}
