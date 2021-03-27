@@ -30,12 +30,9 @@ export default function Home() {
             <p>Learning CSS Animations</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/shop" className={styles.card}>
+            <h3>Thinking In React &rarr;</h3>
+            <p>Shop items filtering example</p>
           </a>
 
           <a
